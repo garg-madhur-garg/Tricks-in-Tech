@@ -1,0 +1,119 @@
+Uninstall 3D Builder:
+get-appxpackage *3dbuilder* | remove-appxpackage
+
+Uninstall Alarms & Clock:
+get-appxpackage *alarms* | remove-appxpackage
+
+Uninstall App Connector:
+get-appxpackage *appconnector* | remove-appxpackage
+
+Uninstall App Installer:
+get-appxpackage *appinstaller* | remove-appxpackage
+
+Uninstall Calendar and Mail apps together:
+get-appxpackage *communicationsapps* | remove-appxpackage
+
+Uninstall Calculator:
+get-appxpackage *calculator* | remove-appxpackage
+
+Uninstall Camera:
+get-appxpackage *camera* | remove-appxpackage
+
+Uninstall Feedback Hub:
+get-appxpackage *feedback* | remove-appxpackage
+
+Uninstall Get Office:
+get-appxpackage *officehub* | remove-appxpackage
+
+Uninstall Get Started or Tips:
+get-appxpackage *getstarted* | remove-appxpackage
+
+Uninstall Get Skype:
+get-appxpackage *skypeapp* | remove-appxpackage
+
+Uninstall Groove Music:
+get-appxpackage *zunemusic* | remove-appxpackage
+
+Uninstall Groove Music and Movies & TV apps together:
+get-appxpackage *zune* | remove-appxpackage
+
+Uninstall Maps:
+get-appxpackage *maps* | remove-appxpackage
+
+Uninstall Messaging and Skype Video apps together:
+get-appxpackage *messaging* | remove-appxpackage
+
+Uninstall Microsoft Solitaire Collection:
+get-appxpackage *solitaire* | remove-appxpackage
+
+Uninstall Microsoft Wallet:
+get-appxpackage *wallet* | remove-appxpackage
+
+Uninstall Microsoft Wi-Fi:
+get-appxpackage *connectivitystore* | remove-appxpackage
+
+Uninstall Money:
+get-appxpackage *bingfinance* | remove-appxpackage
+
+Uninstall Money, News, Sports and Weather apps together:
+get-appxpackage *bing* | remove-appxpackage
+
+Uninstall Movies & TV:
+get-appxpackage *zunevideo* | remove-appxpackage
+
+Uninstall News:
+get-appxpackage *bingnews* | remove-appxpackage
+
+Uninstall OneNote:
+get-appxpackage *onenote* | remove-appxpackage
+
+Uninstall Paid Wi-Fi & Cellular:
+get-appxpackage *oneconnect* | remove-appxpackage
+
+Uninstall Paint 3D:
+get-appxpackage *mspaint* | remove-appxpackage
+
+Uninstall People:
+get-appxpackage *people* | remove-appxpackage
+
+Uninstall Phone:
+get-appxpackage *commsphone* | remove-appxpackage
+
+Uninstall Phone Companion:
+get-appxpackage *windowsphone* | remove-appxpackage
+
+Uninstall Phone and Phone Companion apps together:
+get-appxpackage *phone* | remove-appxpackage
+
+Uninstall Photos:
+get-appxpackage *photos* | remove-appxpackage
+
+Uninstall Sports:
+get-appxpackage *bingsports* | remove-appxpackage
+
+Uninstall Sticky Notes:
+get-appxpackage *sticky* | remove-appxpackage
+
+Uninstall Sway:
+get-appxpackage *sway* | remove-appxpackage
+
+Uninstall View 3D:
+get-appxpackage *3d* | remove-appxpackage
+
+Uninstall Voice Recorder:
+get-appxpackage *soundrecorder* | remove-appxpackage
+
+Uninstall Weather:
+get-appxpackage *bingweather* | remove-appxpackage
+
+Uninstall Windows Holographic:
+get-appxpackage *holographic* | remove-appxpackage
+
+Uninstall Windows Store: (Be very careful!)
+get-appxpackage *windowsstore* | remove-appxpackage
+
+Uninstall Xbox:
+get-appxpackage *xbox* | remove-appxpackage
+
+For Reinstall all Deleted Apps:
+Get-AppxPackage -AllUsers| Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
