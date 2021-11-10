@@ -1,3 +1,5 @@
 # Tricks-in-Tech
 
-Whatever TRICKS you know you can **ADD HERE**
+Whatever TRICKS you know you can *ADD HERE*
+
+**THIS PROJECT IS INCOMPLETE WITHOUT YOUR CONTRIBUTION**
