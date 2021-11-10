@@ -1,0 +1,12 @@
+
+1. All about food        (https://spoonacular.com)
+2. All about cards       (https://deckofcardsapi.com)
+3. GIFs                  (https://developers.giphy.com)
+4. Random Advise         (https://api.adviceslip.com)
+5. Trivia Questions      (http://jservice.io)
+6. Movie Database        (http://www.omdbapi.com)
+7. Funny Translators     (https://funtranslations.com)
+8. All about Dogs        (https://thedogapi.com)
+9. Marvel Heros          (https://developer.marvel.com)
+10. All about Pokemons   (https://pokeapi.co)
+
