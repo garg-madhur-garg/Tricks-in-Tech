@@ -1,3 +1,6 @@
+TYPE THE FOLLOWING COMMANDS IN TERMINAL:
+
+
 Uninstall 3D Builder:
 get-appxpackage *3dbuilder* | remove-appxpackage
 
