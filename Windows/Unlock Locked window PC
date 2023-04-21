@@ -1,0 +1,21 @@
+Step 1: Create a bootable Window 10.... USB
+Step 2: Open Repair a system 
+Step 3: Open Comand Prompt
+Step 4: type c:
+Step 5: cd windows
+Step 6: cd system32
+Step 7: ren utilman.exe utilman_bak.exe   //Rename utilman to utilma_bak
+Step 8: copy cmd.exe utilman.exe  //To make a copy of the cmd.exe file named utilman.exe
+Step 9: exit
+Step 10: Open control panel by clicking on Accessibility option in lock screen
+Step 11: control userpasswords2    // For doing things with GUI   // Not prefer
+Step 12: net user   //for showing user name
+Step 13: net user "name of user without quote marks" *
+Step 14: type new password 
+Step 15: type new password again
+
+Done !!  ---->>>>>> You changed your Password not PIN
+
+
+FOR DEMOSTRATION
+https://youtu.be/0wrnmU9wD1w
