@@ -8,3 +8,6 @@ STEP 2: ./adb shell
 STEP 3: pm list packages (if you want to search specific -> pm list packages |grep name_of_app)
 STEP 4: pm uninstall package_name
 Done
+
+
+Ref: https://www.techmesto.com/uninstall-pre-installed-apps-from-android-phone/
