@@ -1,0 +1,10 @@
+Download adb
+(https://developer.android.com/tools/releases/platform-tools#downloads) -> Download SDK platform tools for windows/mac/linux
+
+In platform tools forlder
+
+STEP 1: ./adb devices
+STEP 2: ./adb shell
+STEP 3: pm list packages (if you want to search specific -> pm list packages |grep name_of_app)
+STEP 4: pm uninstall package_name
+Done
