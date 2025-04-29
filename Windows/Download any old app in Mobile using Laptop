@@ -1,0 +1,4 @@
+cd .\platform-tools\
+./adb devices
+ ./adb install --bypass-low-target-sdk-block "C:\Users\madhu\Downloads\android-comgopalapriyadasabhaktivedantatextabase-21.apk"
+Done
